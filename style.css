@@ -20,15 +20,18 @@ body{
 	display: inline-block;
 	width: 85%;
 	float: right;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .nav{
 	position: relative;
 	margin-top: 30px;
-	display: inline-block;
+	
 	margin-left: 130px;
 	font-family: Questrial;
 	font-size: 18px;
+	text-align: center;
 }
 
 #search_photo{
@@ -141,5 +144,144 @@ span{
 	font-size: 40px;
 	font-family: Rufina;
 	margin-top: 70px;
-	margin-bottom: 36px;
+	margin-bottom: 60px;
+}
+
+#form{
+	background-image: url("img/form.png");
+	position: relative;
+	bottom: 4px;
+	background-size: 100%;
+	height: 609px;
+}
+
+#form_search{
+	display: block;
+	width: 300px;
+	text-align: center;
+	font-size: 36px;
+	margin-top: 50px;
+	margin: auto;
+}
+
+#forms{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.input{
+	width: 600px;
+	height: 60px;
+	font-size: 24px;
+	border: 0;
+	border-radius: 30px;
+	padding-left: 20px;
+	margin-bottom: 50px;
+}
+
+#submit{
+	width: 270px;
+	height: 60px;
+	font-size: 24px;
+	border-radius: 10px;
+	border: 0;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 250px 550px;
+	grid-gap: 70px;
+
+}
+
+.first_string, .second_string{
+	text-align: center;
+	font-size: 34px;
+	margin-top: 50px;
+	color: #FFFFFF;
+}
+
+.first_string{
+	border-radius: 30px;
+}
+
+#first_string{
+	position: relative;
+	top: 60px;
+}
+
+#second_string{
+	position: relative;
+	top: 150px;
+}
+
+#grids{
+	width: 85%;
+	margin: auto;
+}
+
+#new{
+	background-image: url("img/new.png");
+	background-size: 100%;
+}
+
+#family{
+	background-image: url("img/family.png");
+	background-size: 100%;
+}
+
+#new_skid{
+	background-image: url("img/new_skid.png");
+	background-size: 100%;
+}
+
+#family_skid{
+	background-image: url("img/family_skid.png");
+	background-size: 100%;
+}
+
+#subscribe{
+	background-size: 100%;
+	background-image: url("img/subscribe.png");
+	margin-top: 50px;
+	height: 400px;
+	padding-top: 80px;
+}
+#subscribe_text{
+	width: 400px;
+	font-size: 40px;
+	font-family: Rufina;
+	text-align: center;
+	margin: auto;
+	color: #ffffff;
+}
+
+#subscribe_form{
+	width:90%;
+	text-align: center;
+	margin: auto;
+	margin-top: 100px;
+}
+
+#mail{
+	width: 450px;
+	height: 40px;
+	border: 0;
+	border-radius: 30px;
+	padding-left: 30px;
+	font-size: 24px;
+	font-family: Rufina;
+	margin-bottom: 50px;
+}
+
+#button_subscribe{
+	width: 300px;
+	height: 45px;
+	border: 0;
+	border-radius: 30px;
+	font-size: 28px;
+	font-family: Rufina;
 }
